@@ -1,0 +1,110 @@
+body {
+    color: black;
+    background-color: #3266cf;
+    font-family: arial;
+    font-size: 18px;
+    margin:90px;
+}
+
+.Navigation ul {
+    border: 5px solid white;
+    display:flex;
+    gap: 175px;
+    border-radius: 20px;
+}
+
+.Navigation a {
+    font-size: 30px;
+    color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    font-family: "delius-regular", cursive;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Kranky", serif;
+    color: white;
+}
+
+h2 {
+    padding-top: 20px;
+}
+
+p {
+    font-size: 20px;
+    font-family: "delius-regular", cursive;
+}
+
+a {
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    display: flex;
+}
+
+#About {
+    text-align: center;
+    font-family: "Kranky", serif;
+}
+
+#About p {
+    margin-right: 10px;
+}
+
+#Experience {
+    text-align: center;
+    font-family: "Kranky", serif;
+}
+
+#Experience ul {
+    display: flex;
+    font-size: 27px;
+    gap: 70px;
+    font-family: "delius-regular", cursive;
+}
+
+#Connect {
+    text-align: center;
+    font-family: "Kranky", serif;
+}
+
+#Connect a {
+    font-size: 27px;
+    font-family: "delius-regular", cursive;
+}
+
+#Connect ul {
+    display: flex;
+}
+
+#Skills {
+    text-align: center;
+    font-family: "Kranky", serif;
+}
+
+#Projects {
+    text-align: center;
+    font-family: "Kranky", serif;
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+section {
+    background: white;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+li {
+    padding-bottom: 10px;
+    margin:20px;
+    padding-top: 10px;
+    list-style: none;
+}
