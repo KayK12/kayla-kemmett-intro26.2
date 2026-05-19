@@ -84,6 +84,12 @@ a {
     font-family: "Kranky", serif;
 }
 
+#Skills ul {
+    font-size: 30px;
+    display: flex;
+    gap: 240px;
+}
+
 #Projects {
     text-align: center;
     font-family: "Kranky", serif;
