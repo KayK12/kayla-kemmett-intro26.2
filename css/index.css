@@ -9,7 +9,7 @@ body {
 .Navigation ul {
     border: 5px solid white;
     display:flex;
-    gap: 175px;
+    gap: 77px;
     border-radius: 20px;
 }
 
@@ -41,7 +41,6 @@ a {
     color: black;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    display: flex;
 }
 
 #About {
@@ -113,4 +112,44 @@ li {
     margin:20px;
     padding-top: 10px;
     list-style: none;
+}
+
+#Message {
+    text-align: center;
+    font-family: "Kranky", serif;
+}
+
+#Message form {
+    display: flex;
+    gap: 200px;
+    padding-left: 120px;
+    font-size: 25px;
+    font-family: "delius-regular", cursive;
+    margin-bottom: 15px;
+}
+
+#Message button {
+    display: flex;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+#messages {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Kranky", serif;
+}
+
+#messages li {
+    font-family: "delius-regular", cursive;
+    font-size: 20px;
+}
+
+#messages a {
+    font-family: "delius-regular", cursive;
+    font-size: 20px;
+}
+
+#messages button {
+    margin-left: 10px;
 }
