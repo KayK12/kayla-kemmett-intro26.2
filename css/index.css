@@ -95,6 +95,10 @@ a {
     font-family: "Kranky", serif;
 }
 
+#Projects li {
+    font-size:30px;
+}
+
 h1 {
     color: black;
     font-size: 50px;
