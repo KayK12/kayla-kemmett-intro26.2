@@ -9,7 +9,7 @@ body {
 .Navigation ul {
     border: 5px solid white;
     display:flex;
-    gap: 77px;
+    gap: 100px;
     border-radius: 20px;
 }
 
@@ -52,6 +52,11 @@ a {
     margin-right: 10px;
 }
 
+#About a {
+    text-align: center;
+    font-family: "Kranky", serif;
+}
+
 #Experience {
     text-align: center;
     font-family: "Kranky", serif;
@@ -92,6 +97,10 @@ a {
 #Projects {
     text-align: center;
     font-family: "Kranky", serif;
+}
+
+#Projects li {
+    font-size:30px;
 }
 
 h1 {
