@@ -122,3 +122,43 @@ li {
     padding-top: 10px;
     list-style: none;
 }
+
+#Message {
+    text-align: center;
+    font-family: "Kranky", serif;
+}
+
+#Message form {
+    display: flex;
+    gap: 200px;
+    padding-left: 120px;
+    font-size: 25px;
+    font-family: "delius-regular", cursive;
+    margin-bottom: 15px;
+}
+
+#Message button {
+    display: flex;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+#messages {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Kranky", serif;
+}
+
+#messages li {
+    font-family: "delius-regular", cursive;
+    font-size: 20px;
+}
+
+#messages a {
+    font-family: "delius-regular", cursive;
+    font-size: 20px;
+}
+
+#messages button {
+    margin-left: 10px;
+}
