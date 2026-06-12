@@ -43,8 +43,8 @@ fetch(`https://api.github.com/users/KayK12/repos`)
     .catch(error => {
         console.log("No repositories found.");
     });
-
-    var messageForm = document.forms["leave_message"];
+    
+var messageForm = document.forms["leave_message"];
 
 
 messageForm.addEventListener("submit", function(event){
@@ -67,4 +67,8 @@ messageForm.addEventListener("submit", function(event){
     })
     newMessage.appendChild(removeButton);
     messageList.appendChild(newMessage);
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 5d6231b3a1b96a075c2df83e06e5a918cfa14886
