@@ -67,8 +67,4 @@ messageForm.addEventListener("submit", function(event){
     })
     newMessage.appendChild(removeButton);
     messageList.appendChild(newMessage);
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> 5d6231b3a1b96a075c2df83e06e5a918cfa14886
